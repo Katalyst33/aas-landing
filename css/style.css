@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: url("../img/ass.jpg");
+    background-size: cover;
+    background-position: center, center;
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    visibility: inherit;
+
+    /* Center and scale the image nicely */
+}
+
+
+
+
+
+#row2{
+    margin-top: 200px;
+    height: 200px;
+    width: 300px;
+    background:#0f6674;
+    /*margin-left: 5px;*/
+
+}
+
+@media (max-width: 506px) {
+
+    #row2{
+        background:red;
+
+    }
+
+}
+
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    #row2{
+        background:red;
+
+    }
+
+}
+
+/*
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
+
+
+
+/*
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    !* change if the mask should have another color then white *!
+    z-index: 99;
+    !* makes sure it stays on top *!
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    !* centers the loading animation horizontally one the screen *!
+    top: 50%;
+    !* centers the loading animation vertically one the screen *!
+    background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+    !* path to your loading animation *!
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    !* is width and height divided by two *!
+}
+*/
