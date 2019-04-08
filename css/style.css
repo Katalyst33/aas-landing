@@ -51,8 +51,8 @@ h1{
     }
 
 
- p{
-     font-size: small;
+ h1{
+     font-size: xx-large;
  }
 
     #row2{
@@ -78,7 +78,7 @@ h1{
 
 }
 
-@media (min-width: 885px){
+/*@media (min-width: 885px){
 
     #mobileText{
         align-content: center;
@@ -92,7 +92,7 @@ h1{
     }
 
 
-}
+}*/
 
 
 
