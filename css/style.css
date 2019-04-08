@@ -7,6 +7,7 @@ body{
     background-image: url("../img/ass.jpg");
     background-size: cover;
     background-position: center, center;
+
     /* Full height */
     height: 100%;
     width: 100%;
@@ -14,6 +15,10 @@ body{
     visibility: inherit;
 
     /* Center and scale the image nicely */
+}
+
+h1{
+    font-size:4vw;
 }
 
 
@@ -51,61 +56,43 @@ body{
  }
 
     #row2{
+
+        display: none;
+
+    }
+
+    #row-main{
         align-content: center;
-        border-radius: 25px;
+        background:red;
+        height: 35%;
+    }
+
+    #mobileText{
+        align-content: center;
         margin-top: 400px;
         height: 35%;
-        width: 100%;
+        width: 1000px;
 
         background:#0f6674;
-
-
     }
 
 }
 
-/*
-@media (min-width: 576px) { ... }
+@media (min-width: 885px){
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+    #mobileText{
+        align-content: center;
+        margin-top: 50px;
+        height: 35%;
+        width: 1000px;
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+        background:red;
+        display: none;
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-*/
-
+    }
 
 
-/*
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #fff;
-    !* change if the mask should have another color then white *!
-    z-index: 99;
-    !* makes sure it stays on top *!
 }
 
-#status {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    !* centers the loading animation horizontally one the screen *!
-    top: 50%;
-    !* centers the loading animation vertically one the screen *!
-    background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
-    !* path to your loading animation *!
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: -100px 0 0 -100px;
-    !* is width and height divided by two *!
-}
-*/
+
+
