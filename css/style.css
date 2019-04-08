@@ -1,9 +1,8 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
+
 
 body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     background-repeat: no-repeat;
     background-image: url("../img/ass.jpg");
     background-size: cover;
@@ -18,32 +17,47 @@ body{
 }
 
 
-
-
-
 #row2{
-    margin-top: 200px;
-    height: 200px;
+    border-radius: 25px;
+    margin-top: 300px;
+    height: 25%;
     width: 300px;
     background:#0f6674;
     /*margin-left: 5px;*/
 
 }
 
-@media (max-width: 506px) {
-
-    #row2{
-        background:red;
-
-    }
-
-}
 
 
  /*Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) {
+@media (max-width: 885px) {
+    body{
+
+        background-repeat: no-repeat;
+        background-image: url("../img/aas-background.png");
+        background-size: cover;
+        background-position: center, center;
+        /* Full height */
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        visibility: inherit;
+
+    }
+
+
+ p{
+     font-size: small;
+ }
+
     #row2{
+        border-radius: 25px;
+        margin-top: 200px;
+        height: 50%;
+        width: 300px;
+
         background:red;
+
 
     }
 
