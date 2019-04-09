@@ -32,6 +32,9 @@ h1{
 
 }
 
+#mobileText{
+    display: none;
+}
 
 
  /*Medium devices (tablets, 768px and up)*/
@@ -53,6 +56,7 @@ h1{
 
  h1{
      font-size: xx-large;
+     text-align: center;
  }
 
     #row2{
@@ -61,19 +65,20 @@ h1{
 
     }
 
-    #row-main{
+  /*  #row-main{
         align-content: center;
         background:red;
         height: 35%;
-    }
+    }*/
 
     #mobileText{
-        align-content: center;
+        /*align-content: center;*/
         margin-top: 400px;
         height: 35%;
         width: 1000px;
-
+        display: inherit;
         background:#0f6674;
+
     }
 
 }
