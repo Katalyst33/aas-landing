@@ -23,11 +23,11 @@ h1{
 
 
 #row2{
-    border-radius: 25px;
+    border-radius: 10px;
     margin-top: 300px;
     height: 30%;
     width: 300px;
-    background:#0f6674;
+    background:tomato;
     /*margin-left: 5px;*/
 
 }
@@ -78,7 +78,7 @@ h1{
         height: 35%;
         width: 1000px;
         display: inherit;
-        background:#0f6674;
+        background:tomato;
 
     }
 
