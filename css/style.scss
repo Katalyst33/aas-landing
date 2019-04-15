@@ -84,7 +84,12 @@ footer{
     visibility: inherit;
 
   }
-
+  #slidertext{
+    margin-top: -50px;
+    h1{
+      font-size: small;
+    }
+  }
 
   h1{
     font-size: xx-large;
@@ -101,9 +106,11 @@ footer{
 @media (max-width: 991px) {
 
   #slideimage{
+
     height: 50%;
 
   }
+
   #menuLabel{
     visibility: hidden;
   }

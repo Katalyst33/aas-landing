@@ -51,6 +51,11 @@ footer i {
     opacity: 1;
     visibility: inherit; }
 
+  #slidertext {
+    margin-top: -50px; }
+    #slidertext h1 {
+      font-size: small; }
+
   h1 {
     font-size: xx-large;
     text-align: center; } }
